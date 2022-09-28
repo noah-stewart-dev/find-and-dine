@@ -1,0 +1,78 @@
+.Platter {
+    height: 33vh;
+    margin: auto;
+    margin-top: 5vh;
+    width: 100vw;
+}
+
+.platter-container {
+    height: 100%;
+    margin: auto;
+    max-width: 45vh;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.fork {
+    bottom: 0;
+    height: 80%;
+    left: 0px;
+    position: absolute;
+}
+
+#plate {
+    height: 100%;
+    left: 6.5vh;
+    position: absolute;
+}
+
+.spin {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+.details {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 17vh;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.show {
+    animation: fadeIn 2s;
+    color: white;
+    font-size: 1.5vh;
+    font-weight: 400;
+}
+
+.disable {
+    display: none;
+}
+
+.enable {
+    display: inline;
+    height: 2vh;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.knife {
+    bottom: 0;
+    height: 80%;
+    position: absolute;
+    right: 0px;
+}

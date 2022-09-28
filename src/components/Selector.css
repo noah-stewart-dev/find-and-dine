@@ -1,0 +1,68 @@
+.Selector {
+    height: 9vh;
+    margin: auto;
+    margin-top: 8vh;
+    width: 100%;
+}
+
+.selector-container {
+    height: 100%;
+    margin: auto;
+    max-width: 45vh;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.selector-image {
+    height: 100%;
+    left: 0;
+    position: absolute;
+}
+
+.radio-group {
+    height: 100%;
+    margin: auto;
+    position: relative;
+    width: 25vh;
+}
+
+.inactive {
+    color: white;
+    height: 15%;
+    position: absolute;
+    transition: .5s;
+    padding: 3%;
+}
+
+#radio1,
+#radio4 {
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#radio2,
+#radio5 {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#radio3,
+#radio6 {
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.inactive:hover {
+    cursor: pointer;
+}
+
+.active {
+    color: #fff;
+    height: 45%;
+    position: absolute;
+    transition: .5s;
+}

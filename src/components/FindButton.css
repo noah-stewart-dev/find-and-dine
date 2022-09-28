@@ -1,0 +1,31 @@
+.FindButton {
+  height: 6vh;
+  margin: auto;
+  margin-top: 7vh;
+  width: 100vw;
+}
+
+.button-container {
+  height: 100%;
+  margin: auto;
+  max-width: 45vh;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.findBtn {
+  border: .4vh solid white;
+  border-radius: 6vh;
+  color: white;
+  font-size: 1.75vh;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  user-select: none;
+  width: 35%;
+}
+
+.findBtn:hover {
+  cursor: pointer;
+}
