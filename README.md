@@ -2,10 +2,10 @@
 Find and Dine is a web application written in JavaScript, HTML, and CSS using React. It allows a user to randomly select a near by place to eat based on price and distance. After a place has been selected, a link to its Google Places page is displayed offering easy access to the menu, directions, and reviews. Check it out [here](https://findanddine.net)!
 
 ### Tables of content
-[How it works](how-it-works)  
-[Motivation](motivation)  
-[Challenges](challenges)  
-[What I would change](what-i-would-change)
+[How it works](#how-it-works)  
+[Motivation](#motivation)  
+[Challenges](#challenges)  
+[What I would change](#what-i-would-change)
 
 ## How it works
 ### Interaction
